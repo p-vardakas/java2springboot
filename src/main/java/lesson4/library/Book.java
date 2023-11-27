@@ -18,7 +18,7 @@ public class Book {
     }
 
     public void setAvailable(boolean available) {
-        isAvailable = available;
+        this.isAvailable = available;
     }
 
     public void printAvailability() {

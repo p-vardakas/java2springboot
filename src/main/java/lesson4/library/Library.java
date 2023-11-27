@@ -25,5 +25,10 @@ public class Library {
 
         book1.printAvailability();
         book2.printAvailability();
+
+        member1.addBook(book2);
+
+        book1.printAvailability();
+        book2.printAvailability();
     }
 }
