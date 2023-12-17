@@ -1,4 +1,4 @@
-package abstactlibrary;
+package lesson6.abstactlibrary;
 
 public abstract class Book extends Item implements Readable, Borrowable {
     private String title;

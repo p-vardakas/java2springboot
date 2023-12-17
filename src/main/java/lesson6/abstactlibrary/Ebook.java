@@ -1,4 +1,4 @@
-package abstactlibrary;
+package lesson6.abstactlibrary;
 
 public class Ebook extends Book {
     private double fileSize;

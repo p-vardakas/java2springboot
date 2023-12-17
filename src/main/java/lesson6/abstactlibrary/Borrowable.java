@@ -1,4 +1,4 @@
-package abstactlibrary;
+package lesson6.abstactlibrary;
 
 public interface Borrowable {
     String IS_BORROWED = "is borrowed";

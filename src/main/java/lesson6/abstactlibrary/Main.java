@@ -1,4 +1,4 @@
-package abstactlibrary;
+package lesson6.abstactlibrary;
 
 public class Main {
     public static void main(String[] args) {

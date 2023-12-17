@@ -1,4 +1,4 @@
-package abstactlibrary;
+package lesson6.abstactlibrary;
 
 public abstract class Item {
     private int id;
