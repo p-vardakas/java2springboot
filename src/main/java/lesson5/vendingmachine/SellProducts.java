@@ -1,4 +1,4 @@
-package vendingmachine;
+package lesson5.vendingmachine;
 
 public class SellProducts {
     public static void main(String[] args) {
