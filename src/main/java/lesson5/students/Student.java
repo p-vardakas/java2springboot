@@ -1,4 +1,4 @@
-package students;
+package lesson5.students;
 
 public class Student {
     private int id;

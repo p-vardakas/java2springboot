@@ -1,4 +1,4 @@
-package students;
+package lesson5.students;
 
 import java.util.Scanner;
 
@@ -112,7 +112,7 @@ public class Management {
     }
 
     private String displayStudents() {
-        System.out.println("Searching for available students...");
+        System.out.println("Searching for available lesson5.students...");
 
         StringBuilder stringBuilder = new StringBuilder();
         for (Student student : students) {
@@ -124,7 +124,7 @@ public class Management {
         }
 
         if (stringBuilder.isEmpty()) {
-            stringBuilder.append("There aren't any available students");
+            stringBuilder.append("There aren't any available lesson5.students");
         }
         return stringBuilder.toString();
     }
