@@ -123,22 +123,20 @@ public class OrderManagement {
         int orderId = getOrderId(scanner);
 
         Order selectedOrder = null;
-        int orderPosition = 0;
         for (int i = 0; i < orders.length; i++) {
-            Order order = orders[i];
-            if (order != null && order.getId() == orderId) {
-                selectedOrder = order;
-                orderPosition = i;
+            if (orders[i] != null && orders[i].getId() == orderId) {
+                selectedOrder = orders[i];
+
+                double totalPrice = selectedOrder.calculateTotalPrice();
+                System.out.println("Total price: " + totalPrice);
+
+                System.out.println("Deleting order: " + orderId);
+                orders[i] = null;
                 break;
             }
         }
 
-        if (selectedOrder != null) {
-            double totalPrice = selectedOrder.calculateTotalPrice();
-            System.out.println("Total price: " + totalPrice);
-            System.out.println("Deleting order: " + orderId);
-            orders[orderPosition] = null;
-        } else {
+        if (selectedOrder == null) {
             System.out.println("Order not found");
         }
     }
