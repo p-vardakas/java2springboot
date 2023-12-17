@@ -1,4 +1,4 @@
-package shop;
+package lesson4.shop;
 
 public class Shop {
     public static void main(String[] args) {
