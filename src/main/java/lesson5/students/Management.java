@@ -124,7 +124,7 @@ public class Management {
         }
 
         if (stringBuilder.isEmpty()) {
-            stringBuilder.append("There aren't any available lesson5.students");
+            stringBuilder.append("There aren't any available students");
         }
         return stringBuilder.toString();
     }
