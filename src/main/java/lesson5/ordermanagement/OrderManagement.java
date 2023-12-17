@@ -1,4 +1,4 @@
-package ordermanagement;
+package lesson5.ordermanagement;
 
 import java.util.Random;
 import java.util.Scanner;

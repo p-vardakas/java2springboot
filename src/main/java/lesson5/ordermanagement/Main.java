@@ -1,4 +1,4 @@
-package ordermanagement;
+package lesson5.ordermanagement;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ordermanagement;
+package lesson5.ordermanagement;
 
 public class Plate {
     private int id;
