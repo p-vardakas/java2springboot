@@ -1,4 +1,4 @@
-package casting;
+package lesson3.casting;
 
 public class Casting {
     public static void main(String[] args) {
