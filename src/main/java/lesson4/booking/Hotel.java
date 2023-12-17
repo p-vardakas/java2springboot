@@ -1,4 +1,4 @@
-package booking;
+package lesson4.booking;
 
 public class Hotel {
     private Room room1;

@@ -1,4 +1,4 @@
-package booking;
+package lesson4.booking;
 
 public class Room {
     private int id;
