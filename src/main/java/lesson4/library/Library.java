@@ -1,4 +1,4 @@
-package library;
+package lesson4.library;
 
 public class Library {
     public static void main(String[] args) {

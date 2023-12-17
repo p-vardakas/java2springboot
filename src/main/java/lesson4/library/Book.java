@@ -1,4 +1,4 @@
-package library;
+package lesson4.library;
 
 public class Book {
     private String title;
