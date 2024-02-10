@@ -101,11 +101,7 @@ public class TextProcessor {
         List<String> words = cleanUpAndGetWords(text);
         Map<String, Integer> wordOccurrences = new HashMap<>();
         for (String word : words) {
-            if (wordOccurrences.containsKey(word)) {
-                wordOccurrences.put(word, wordOccurrences.get(word) + 1);
-            } else {
-                wordOccurrences.put(word, 1);
-            }
+            wordOccurrences.put(word, wordOccurrences.containsKey(word) ? wordOccurrences.get(word) + 1 : 1);
         }
         return wordOccurrences;
     }
